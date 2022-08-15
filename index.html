@@ -22,8 +22,10 @@
       display: grid;
       align-items: center;
       justify-content: center;
+      margin: 40px;
+      padding: 40px;
       font-family: karla, sans-serif;
-      height: fit-content;
+      height: 50vh;
       width: 50%;
       box-shadow: 1px 1px 20px -10px grey;
     }
@@ -31,16 +33,32 @@
     .item1 {
       grid-row: 1;
       grid-column: span 2;
+      background-color: white;
 
+    }
+
+    h1 {
+      color: hsl(179, 62%, 43%);
+    }
+
+    h2 {
+      color: hsl(71, 73%, 54%);
+    }
+
+    p {
+      color: hsl(218, 22%, 67%);
     }
 
     .item2 {
       grid-row: 2;
       grid-column: 1;
+      background-color: hsl(179, 62%, 43%);
     }
     .item3 {
       grid-row:2;
-      grid-column: 2}
+      grid-column: 2;
+      background-color:#4abebd;
+    }
 
     a {
       text-decoration: none;
@@ -56,12 +74,14 @@
 </head>
 <body>
 <main>
-  <div class="item1">Join our community
+  <div class="item1">
+    <h1>Join our community</h1>
 
-  30-day, hassle-free money-back guarantee
+    <h2>30-day, hassle-free money-back guarantee</h2>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.</div>
+  <p>Gain access to our full library of tutorials along with expert code reviews.
+  Perfect for any developers who are serious about honing their skills.</p>
+  </div>
 
   <div class="item2">Monthly Subscription
 

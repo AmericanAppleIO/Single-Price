@@ -41,11 +41,11 @@
       color: hsl(179, 62%, 43%);
     }
 
-    h2 {
+    .yellow {
       color: hsl(71, 73%, 54%);
     }
 
-    p {
+    .grey {
       color: hsl(218, 22%, 67%);
     }
 
@@ -53,11 +53,21 @@
       grid-row: 2;
       grid-column: 1;
       background-color: hsl(179, 62%, 43%);
+      color: white;
+    }
+
+    button{
+      background-color:hsl(71, 73%, 54%);
     }
     .item3 {
       grid-row:2;
       grid-column: 2;
       background-color:#4abebd;
+      color: white;
+    }
+
+    ul{
+      list-style: none;
     }
 
     a {
@@ -77,31 +87,35 @@
   <div class="item1">
     <h1>Join our community</h1>
 
-    <h2>30-day, hassle-free money-back guarantee</h2>
+    <h2 class="yellow">30-day, hassle-free money-back guarantee</h2>
 
-  <p>Gain access to our full library of tutorials along with expert code reviews.
+  <p class="grey">Gain access to our full library of tutorials along with expert code reviews.
   Perfect for any developers who are serious about honing their skills.</p>
   </div>
 
-  <div class="item2">Monthly Subscription
+  <div class="item2">
+    <h2>Monthly Subscription</h2>
 
-  &dollar;29 per month
+  <strong>&dollar;29</strong> per month
 
-  Full access for less than &dollar;1 a day
+    <p>Full access for less than &dollar;1 a day</p>
 
-    Sign Up</div>
+    <button>Sign Up</button>
+  </div>
 
-  <div class="item3">Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-    New videos every week</div>
+  <div class="item3">
+    <h2>Why Us</h2>
+    <ul>
+      <li>Tutorials by industry experts</li>
+      <li>Peer &amp; expert code review</li>
+      <li>Coding exercises</li>
+      <li>Access to our GitHub repos</li>
+      <li>Community forum</li>
+      <li>Flashcard decks</li>
+      <li>New videos every week</li>
+    </ul>
+  </div>
 </main>
-  
   <footer>
     <p>
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

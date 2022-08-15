@@ -18,15 +18,12 @@
       font-family: karla, sans-serif;
     }
 
+
     main {
       display: grid;
       align-items: center;
       justify-content: center;
-      margin: 40px;
-      padding: 40px;
       font-family: karla, sans-serif;
-      height: 50vh;
-      width: 50%;
       box-shadow: 1px 1px 20px -10px grey;
     }
 
@@ -34,7 +31,7 @@
       grid-row: 1;
       grid-column: span 2;
       background-color: white;
-
+      padding: 20px 40px;
     }
 
     h1 {
@@ -54,16 +51,33 @@
       grid-column: 1;
       background-color: hsl(179, 62%, 43%);
       color: white;
+      padding: 20px 40px;
+    }
+
+    strong {
+      font-size: 2rem;
     }
 
     button{
       background-color:hsl(71, 73%, 54%);
+      width: 100%;
+      border: none;
+      border-radius: 7px;
+      padding: 15px 0;
+      color: white;
+      font-weight: 700;
     }
+
+    button:hover {
+      background-color: black;
+    }
+
     .item3 {
       grid-row:2;
       grid-column: 2;
       background-color:#4abebd;
       color: white;
+      padding: 20px 40px;
     }
 
     ul{
@@ -80,6 +94,7 @@
       align-items: center;
       justify-content: center;
     }
+
   </style>
 </head>
 <body>
@@ -104,8 +119,8 @@
   </div>
 
   <div class="item3">
-    <h2>Why Us</h2>
     <ul>
+    <h2>Why Us</h2>
       <li>Tutorials by industry experts</li>
       <li>Peer &amp; expert code review</li>
       <li>Coding exercises</li>
